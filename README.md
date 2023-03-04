@@ -1,5 +1,7 @@
 # Converged Computing 
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7697548.svg)](https://doi.org/10.5281/zenodo.7697548)
+
 > A Best-of-Both-Worlds of HPC and Cloud
 
 This is a [CiSE Special Issue Proposal](https://www.authorea.com/users/34995/articles/430859-cise-guest-editors-guide) and 
