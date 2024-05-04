@@ -1,0 +1,14 @@
+<script>
+    var headers = ["h1", "h2", "h3", "h4"]
+    var colors = ["darkorange", "green", "cadetblue"]
+    
+    $.each(headers, function(i, header){
+        var color = colors[i];
+        $(header).each(function () {
+            var href=$(this).attr("id");
+            if (href) {
+                $(this).append('<a class="headerlink" style="font-size:24; margin-left:3px;color:' + color + '" href="#' + href + '" title="Permanent link">¶</a>')
+            }
+        });
+    })
+</script>

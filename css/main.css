@@ -1,0 +1,87 @@
+html, body { font-family: 'Inter', sans-serif; font-size: 16px; }
+
+hr { background-color: #e2e8f0; opacity: 1; }
+
+.h3, h3 {
+  padding-top:20px;
+}
+
+header { background-color: #f7f7f7; }
+
+.bg-primary-docs { background-color: #2b58c9 !important; }
+
+@media (min-width: 768px) { .nav-docs { position: sticky; top: 0; z-index: 100; }
+  .sticky-sidebar { position: sticky; top: 100px; z-index: 99; } }
+.nav-docs { background-color: white !important; border-bottom: 1px solid #e2e8f0; }
+
+.bg-light { background-color: #F1F5F8 !important; }
+
+.rounded-lg { border-radius: 1rem; }
+
+aside small { text-transform: uppercase; font-weight: 700; letter-spacing: 0.5px; color: #2b58c9; margin-bottom: 0.25rem; display: block; }
+aside ul { padding-left: 0; }
+aside ul li { list-style: none; font-size: 0.875rem; margin: 0.2rem 0; }
+aside ul li:hover, aside ul li.active { background-color: #2b58c921; border-radius: 4px; }
+aside ul li:hover a, aside ul li.active a { color: #2b58c9 !important; }
+aside ul li a { color: #616161; padding: 0.3rem 0.5rem; display: block; text-decoration: none; }
+
+.on-this-page { padding-left: 0; }
+.on-this-page li { list-style: none; font-size: 0.875rem; margin: 0; }
+.on-this-page li:hover, .on-this-page li.active { background-color: #2b58c921; border-radius: 4px; }
+.on-this-page li:hover a, .on-this-page li.active a { color: #2b58c9 !important; }
+.on-this-page li a { color: #616161; padding: 0.3rem 0.5rem; display: block; text-decoration: none; }
+
+.card-docs { border-color: transparent; }
+
+.device-container { background: white; }
+
+.doc-section { border: 5px solid #f7f7f9; border-radius: 5px; margin-bottom: 40px; }
+
+.twitter-share-button { -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -ms-transform: scale(1.1); transform: scale(1.1); }
+
+.doc-top { padding: 10px; }
+
+.doc-title { font-weight: 600 !important; margin-bottom: 0.6rem; }
+
+small { font-size: 0.75rem; }
+
+pre { padding: 1rem; }
+
+.social-buttons { display: table; margin: 10px auto 20px auto; position: relative; }
+
+footer { padding: 20px 0; }
+footer .text-muted { color: #c6cdd4 !important; }
+
+.compatibility-badge { color: #333333; border: 1px solid #dae4e9; background-color: #fafcfc; padding: 0.25rem 0.5rem 0.25rem 0.25rem; border-radius: 9999px; font-weight: 500; text-decoration: none; font-size: 14px; }
+.compatibility-badge .badge-check { background-color: #51d88a; border-radius: 9999px; margin-right: 0.25rem; width: 16px; height: 16px; }
+.compatibility-badge .badge-check img { color: white; }
+
+@media (max-width: 768px) { .docs-cta { margin-top: 16px !important; padding: 0.5rem; } }
+.highlight { background-color: #f1f5f8; border-radius: 10px; }
+
+.supported-client-list { padding-left: 0.5rem; }
+.supported-client-list li { list-style: none; font-size: 18px; }
+.supported-client-list li img { width: 30px; height: 30px; margin-right: 0.5rem; }
+
+.email-click-preview span, .mobile-email-click-preview span { opacity: .75; }
+.email-click-preview span[data-show]:hover, .email-click-preview span.active, .mobile-email-click-preview span[data-show]:hover, .mobile-email-click-preview span.active { opacity: 1; cursor: pointer; color: #2b58c9; }
+.email-click-preview span.active, .mobile-email-click-preview span.active { font-weight: 600; }
+
+.btn-purple { background-color: #2b58c9; color: white; }
+.btn-purple:hover { color: #2b58c9 !important; border-color: #2b58c9 !important; background-color: white !important; }
+
+.table-utilities { max-height: 293px; overflow-y: auto; margin-bottom: 1.5rem; }
+.table-utilities th { font-weight: 500; }
+.table-utilities th, .table-utilities td { border-bottom-color: #e2e8f0 !important; font-size: 13px; }
+.table-utilities tbody .class { color: #2b58c9; font-weight: 500; font-family: var(--bs-font-monospace); white-space: nowrap; }
+.table-utilities tbody .css { color: #6c757d; font-family: var(--bs-font-monospace); }
+.table-utilities tbody .result { color: #6c757d; }
+.table-utilities tbody tr:last-child td { border-bottom: 0 !important; }
+
+.badge-input, .badge-output { display: table; margin-bottom: -26px; position: relative; z-index: 10; }
+
+.badge-input { background-color: #6c757d; }
+
+.badge-output { background-color: #2b58c9; }
+
+a.anchor { display: block; position: relative; top: -75px; visibility: hidden; }
