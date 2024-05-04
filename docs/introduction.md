@@ -1,6 +1,7 @@
 ---
 layout: docs
 title:  "Introduction"
+permalink: /docs/introduction
 sections:
   - What is Converged Computing
   - Why do we need to work together
