@@ -1,10 +1,9 @@
 # Converged Computing 
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7697548.svg)](https://doi.org/10.5281/zenodo.7697548)
-
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7697548.svg)](https://doi.org/10.5281/zenodo.7697548)
 
 > A Best-of-Both-Worlds of HPC and Cloud
 
@@ -28,22 +27,6 @@ Major trends have brought the cloud and high performance computing (HPC) communi
  - Bill Magro, Google
  
 
-## Terms
-
-The original definitions were written by:
-
-- Vanessa Sochat, LLNL
-- Daniel Milroy, LLNL
-- Tapasya Patki, LLNL
-- Claudia Misale (IBM Research)
-- Jay Lofstead, Sandia National Laboratories
-- Paula Olaya (University of Tennessee)
-- Michela Taufer (University of Tennessee)
-- Jakob Luettgau (previously University of Tennessee)
-
-And after this set, discussion moved into a Google Document that was open for community contribution, and discussion and work on the terms will continue on this site, with commit history much better representing contribution. I ([@vsoch](https://github.com/vsoch)) started the document and definitions realizing that the two communities were not communicating well, and hoping to work on that. If you'd like to further work on the terms or site content we welcome your contribution! 
-
-
 ## 😁️ Contributors 😁️
 
 We use the [all-contributors](https://github.com/all-contributors/all-contributors)
@@ -64,6 +47,21 @@ tool to generate a contributors graphic below.
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
+
+## Terms
+
+The original definitions were written by:
+
+- Vanessa Sochat, LLNL
+- Daniel Milroy, LLNL
+- Tapasya Patki, LLNL
+- Claudia Misale (IBM Research)
+- Jay Lofstead, Sandia National Laboratories
+- Paula Olaya (University of Tennessee)
+- Michela Taufer (University of Tennessee)
+- Jakob Luettgau (previously University of Tennessee)
+
+And after this set, discussion moved into a Google Document that was open for community contribution, and discussion and work on the terms will continue on this site, with commit history much better representing contribution. I ([@vsoch](https://github.com/vsoch)) started the document and definitions realizing that the two communities were not communicating well, and hoping to work on that. If you'd like to further work on the terms or site content we welcome your contribution! 
 
 
 ## Thank you
