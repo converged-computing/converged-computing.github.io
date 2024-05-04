@@ -59,6 +59,7 @@ tool to generate a contributors graphic below.
     </tr>
   </tbody>
 </table>
+
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
 
