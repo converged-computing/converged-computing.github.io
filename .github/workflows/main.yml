@@ -1,0 +1,17 @@
+name: converged-computing linting
+
+on:
+  push:
+    branches-ignore:
+    - main
+    - gh-pages
+
+jobs:
+  formatting:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Check Spelling
+      uses: crate-ci/typos@7ad296c72fa8265059cc03d1eda562fbdfcd6df2 # v1.9.0
+      with:
+        files: ./_docs/*.md ./docs/*.md ./README.md ./pages/*.md
