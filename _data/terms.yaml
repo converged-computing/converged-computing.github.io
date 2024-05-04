@@ -1,0 +1,24 @@
+getting-started:
+- name: Introduction
+  url: /docs/introduction
+- name: About
+  url: /about
+#  - name: Goals
+#    url: /docs/goals
+comparisons:
+- name: HPC vs HTC
+  url: /docs/hpc-vs-htc
+
+patterns:
+- name: jobs
+  url: /docs/job-patterns
+- name: workflows
+  url: /docs/workflow-patterns
+#- section: Projects
+#  items:
+#  - name: Journal Special Issue
+#    url: /docs/journal
+#  - name: Kubernetes
+#    url: /docs/kubernetes
+#  - name: HPC Schedulers
+#    url: /docs/hpc

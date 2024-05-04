@@ -1,0 +1,25 @@
+   {% capture the_collection %}{{page.collection}}{% endcapture %}
+    {% if page.collection %}
+        {% assign  document = site[the_collection] %}
+    {% endif %}
+
+    {% for links in document %}
+        {% if links.url == page.url %}
+            {% unless forloop.first %}
+                {% assign prevurl = prev.url %}
+                {% assign prevtitle = prev.title %}
+            {% endunless %}
+            {% unless forloop.last %}
+                {% assign next = document[forloop.index] %}
+                {% assign nexturl = next.url %}
+                {% assign nexttitle = next.title %}
+            {% endunless %}
+        {% endif %}
+        {% assign prev = links %}
+    {% endfor %}
+    {% if prevurl or nexturl %}
+        <div class="pagination" style="margin-top:30px">
+            {% if prevurl %}<a href="{{prevurl}}" class="btn btn-primary ax-left prev"><i class="fa fa-angle-left"></i> {{ prevtitle}}</a>{% endif %}
+            {% if nexturl %}<a href="{{nexturl}}" {% if prevurl %}style="margin-left:10px"{% endif %} class="btn btn-primary ax-right next">{{nexttitle}} <i class="fa fa-angle-right"></i></a>{% endif %}
+        </div>
+    {% endif %}

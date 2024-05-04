@@ -1,0 +1,42 @@
+<nav class="navbar navbar-expand-md navbar-light nav-docs">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="{{ site.url }}">
+      <img class="me-3" style="height: 33px;" src="/img/icons/logo.png" />
+      <span class="d-inline-block" style="font-weight: 600;">Converged Computing</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link {% if include.active == "documentation" %}active{% endif %}" href="{{ site.url }}/docs/introduction">Terms</a>
+        </li>
+        </li>
+        <!--<li class="nav-item">
+          <a class="nav-link" href="">Editor</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">Templates</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">Sending</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">Discuss</a>
+        </li>-->
+      </ul>
+      <div class="ms-md-auto d-flex">
+        <div class="dropdown">
+          <button class="btn btn-outline-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            v0.1.0
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="https://github.com/converged-computing/converged-computing.github.io">v0.1.x</a>
+          </div>
+        </div>
+        <a href="https://github.com/converged-computing/converged-computing.github.io" class="btn btn-outline-secondary btn-sm ms-2">View on <strong>GitHub</strong></a>
+      </div>
+    </div>
+  </div>
+</nav>
