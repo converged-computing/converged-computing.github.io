@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="0; url={{ page.redirect_url }}">
+    <title>Redirecting...</title>
+    <link rel="canonical" href="{{ page.redirect_url }}">
+    <script type="text/javascript">
+        // Fallback redirect for browsers that might not process meta refresh quickly or at all
+        // .replace() is better than .href as it doesn't create a history entry for this page
+        window.location.replace("{{ page.redirect_url }}");
+    </script>
+</head>
+<body>
+    <p>If you are not redirected automatically, please follow this <a href="{{ page.redirect_url }}">{{ page.redirect_url }}</a>.</p>
+</body>
+</html>
+
+    
